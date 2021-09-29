@@ -86,3 +86,11 @@
 |カテゴリコード|category_code|int(11)|○|○||
 |カテゴリ名|category_name|varchar(20)||○||
 |登録日|reg_date|date||○||
+
+## モデルマスタ(m_model)
+
+|和名|属性名(カラム名)|型|PK|NN|FK|
+|---|-----|--|--|--|--|
+|機種コード|model_code|varchar(50)|○|○||
+|モデル名|model_name|varchar(50)||○||
+|登録日|reg_date|date||○||
