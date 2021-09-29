@@ -107,7 +107,6 @@ design         }o-r-o{     model
 design         }o-d-o{     design_detail
 design_detail  }o-r-o{     image
 design_detail  }o-d-o{     material
-
-moterial       }o-r-||    category
+material       }o-r-||    category
 @enduml
 ```
