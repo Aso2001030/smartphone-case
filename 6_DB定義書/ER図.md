@@ -99,13 +99,15 @@ package "ECサイト" as target_system {
   }
   
 customer       |o-u-o{     order
+customer       }-d-o{     image
 order          ||-r-|{     order_detail
 order_detail   }-d-||     design
-design         }o-l-||    cosutomer
-customer       }-d-o{     image
-design         }o--o{     image
-design         }o-d-o{     material
+design         }o-l-||    customer
 design         }o-r-o{     model
+design         }o-d-o{     design_detail
+design_detail  }o-r-o{     image
+design_detail  }o-d-o{     material
+
 moterial       }o-r-||    category
 @enduml
 ```
