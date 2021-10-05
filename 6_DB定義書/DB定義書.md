@@ -1,6 +1,6 @@
 # DB定義書
 ## ER図
-[ER図はこちら]()
+[ER図はこちら](https://github.com/Aso2001017/smartphone-case/blob/main/6_DB%E5%AE%9A%E7%BE%A9%E6%9B%B8/ER%E5%9B%B3.md)
 
 # DBテーブルカラム一覧
 
@@ -48,6 +48,7 @@
 |顧客コード|customer_code|varchar(50)||○|○|
 |機種コード|model_code|varchar(50)||○|○|
 |デザイン画像|design_image|image||○||
+|公開フラグ|release_flag|char(1)||||
 |登録日|reg_date|date||○||
 
 ## デザイン詳細テーブル(d_design_detail)
