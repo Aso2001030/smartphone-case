@@ -11,7 +11,6 @@
   else 登録失敗
     Webサーバー -> ユーザー : 登録失敗
   end
-end
 
 @enduml
 ```
